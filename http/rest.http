@@ -1,0 +1,10 @@
+POST http://localhost:8081/api/capture-service/agent/camera
+Content-Type: application/json
+
+{
+    "camId": "1",
+    "command": "capture",
+    "vendor": "allCam"
+}
+
+###
