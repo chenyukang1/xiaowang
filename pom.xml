@@ -7,13 +7,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>dependencies</module>
-        <module>frameworks</module>
-        <module>services</module>
-        <module>services/capture-service</module>
-        <module>services/engine-service</module>
-        <module>services/monitor-service</module>
-        <module>devops</module>
+        <module>xiaowang-dependencies</module>
+        <module>xiaowang-frameworks</module>
+        <module>xiaowang-services</module>
+        <module>xiaowang-services/capture-service</module>
+        <module>xiaowang-services/engine-service</module>
+        <module>xiaowang-services/monitor-service</module>
+        <module>xiaowang-devops</module>
     </modules>
 
     <properties>
