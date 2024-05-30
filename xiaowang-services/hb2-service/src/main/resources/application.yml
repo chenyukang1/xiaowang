@@ -1,0 +1,22 @@
+server:
+  port: 8088
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: chenyk
+    password: 123456
+    listener:
+      type: simple
+      simple:
+        default-requeue-rejected: false
+        acknowledge-mode: manual
+
+hb2:
+  mq:
+    business:
+      exchange: 'com.cyk.xiaowang.business.exchange'
+      queue: 'com.cyk.xiaowang.business.queue'
+    dead-letter:
+      queue: 'com.cyk.xiaowang.deadLetter.queue'
