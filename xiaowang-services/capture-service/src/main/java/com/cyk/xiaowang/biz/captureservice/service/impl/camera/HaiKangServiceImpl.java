@@ -1,6 +1,6 @@
 package com.cyk.xiaowang.biz.captureservice.service.impl.camera;
 
-import com.cyk.xiaowang.biz.captureservice.dto.HBCamera;
+import com.cyk.xiaowang.biz.captureservice.domain.dto.HBCamera;
 import com.cyk.xiaowang.biz.captureservice.service.CameraService;
 import com.cyk.xiaowang.biz.captureservice.service.camera.HaiKangService;
 import com.cyk.xiaowang.biz.captureservice.service.impl.BaseCameraServiceImpl;

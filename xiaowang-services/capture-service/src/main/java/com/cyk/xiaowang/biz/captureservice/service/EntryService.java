@@ -1,6 +1,6 @@
 package com.cyk.xiaowang.biz.captureservice.service;
 
-import com.cyk.xiaowang.biz.captureservice.req.AgentCameraReq;
+import com.cyk.xiaowang.biz.captureservice.domain.req.AgentCameraReq;
 
 /**
  * The class EntryService.

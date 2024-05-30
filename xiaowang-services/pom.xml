@@ -11,6 +11,12 @@
 
     <artifactId>xiaowang-services</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>capture-service</module>
+        <module>engine-service</module>
+        <module>hb2-service</module>
+        <module>monitor-service</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -1,4 +1,4 @@
-package com.cyk.xiaowang.biz.captureservice.dto;
+package com.cyk.xiaowang.biz.captureservice.domain.dto;
 
 /**
  * The class HBCamera.

@@ -1,6 +1,6 @@
 package com.cyk.xiaowang.biz.captureservice.service;
 
-import com.cyk.xiaowang.biz.captureservice.dto.HBCamera;
+import com.cyk.xiaowang.biz.captureservice.domain.dto.HBCamera;
 
 import java.io.File;
 import java.util.List;

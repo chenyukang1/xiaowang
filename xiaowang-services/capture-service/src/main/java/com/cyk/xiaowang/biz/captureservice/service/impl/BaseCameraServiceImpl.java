@@ -1,6 +1,6 @@
 package com.cyk.xiaowang.biz.captureservice.service.impl;
 
-import com.cyk.xiaowang.biz.captureservice.dto.HBCamera;
+import com.cyk.xiaowang.biz.captureservice.domain.dto.HBCamera;
 import com.cyk.xiaowang.biz.captureservice.service.CameraService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

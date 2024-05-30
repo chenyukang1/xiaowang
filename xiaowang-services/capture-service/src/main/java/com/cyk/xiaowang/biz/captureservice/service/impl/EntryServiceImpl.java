@@ -1,6 +1,6 @@
 package com.cyk.xiaowang.biz.captureservice.service.impl;
 
-import com.cyk.xiaowang.biz.captureservice.req.AgentCameraReq;
+import com.cyk.xiaowang.biz.captureservice.domain.req.AgentCameraReq;
 import com.cyk.xiaowang.biz.captureservice.service.CameraService;
 import com.cyk.xiaowang.biz.captureservice.service.CameraServiceFactory;
 import com.cyk.xiaowang.biz.captureservice.service.EntryService;

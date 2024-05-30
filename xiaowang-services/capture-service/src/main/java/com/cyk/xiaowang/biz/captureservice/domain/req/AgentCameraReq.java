@@ -1,4 +1,4 @@
-package com.cyk.xiaowang.biz.captureservice.req;
+package com.cyk.xiaowang.biz.captureservice.domain.req;
 
 import lombok.Data;
 

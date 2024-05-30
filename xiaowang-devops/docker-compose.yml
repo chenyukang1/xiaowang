@@ -3,7 +3,6 @@ services:
   nginx:
     image: nginx:latest
     container_name: nginx
-    restart: always
     ports:
       - "80:80"
     volumes:
@@ -13,6 +12,22 @@ services:
       - ./nginx/conf/conf.d:/etc/nginx/conf.d
       - ./nginx/ssl:/etc/nginx/ssl
     privileged: true
+    networks:
+      - xiaowang-network
+
+  rabbitmq:
+    image: rabbitmq:3.13.2
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      TZ: Asia/Shanghai
+      RABBITMQ_DEFAULT_USER: chenyk
+      RABBITMQ_DEFAULT_PASS: 123456
+#    volumes:
+#      - ./data:/var/lib/rabbitmq
+#      - ./conf:/etc/rabbitmq
     networks:
       - xiaowang-network
 
